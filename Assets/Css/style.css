@@ -129,6 +129,7 @@ header nav ul li a {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 300px 
 }
 
 .home-content h4 {
@@ -138,12 +139,12 @@ header nav ul li a {
 }
 
 .home-image img {
-    height: 350px;
+    height: 300px;
     animation-name: imgcupanimate;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 
 @keyframes imgcupanimate{
